@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="py-3 border-b border-slate-300">
+      <nav class="relative container flex items-center justify-between">
+        <a class="flex gap-2 w-32 md:w-3/12" href="index.html">
+          <img src="img/logo.svg" alt="logo" />
+          <span class="font-['Montserrat'] font-medium text-2xl">Infinity</span>
+        </a>
+
+        <ul
+          class="hidden absolute left-0 top-full my-5 w-full bg-white text-center md:static md:flex md:justify-end md:gap-4"
+          data-toggle-target="menu"
+        >
+          <li class="my-4">
+            <a class="" href="#">Home</a>
+          </li>
+          <li class="my-4">
+            <a href="#">About Us</a>
+          </li>
+          <li class="my-4">
+            <a href="#">Our Blog</a>
+          </li>
+          <li class="my-4">
+            <a href="#">Contacts</a>
+          </li>
+        </ul>
+
+        <button class="hamburger md:hidden" data-toggle="menuToggler">
+          <span class="sr-only">Menu button</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="mb-7 py-32">
+        <div
+          class="container flex flex-col-reverse gap-8 md:flex-row md:items-center"
+        >
+          <div class="w-full text-center">
+            <h1
+              class="mb-6 text-3xl font-[600] leading-normal tracking-[-0.01em] text-primary md:text-4xl"
+            >
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </h1>
+            <p class="mb-8 text-secondary text-lg leading-normal md:text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+              praesentium exercitationem iusto a commodi, nobis numquam
+              similique molestiae. Quibusdam ea corrupti omnis assumenda
+              asperiores eligendi deleniti nam ex quos laborum.
+            </p>
+            <a class="cta hover:bg-secondary transition-all duration-500" href="#">Reservation</a>
+          </div>
+
+          <div class="w-full">
+            <img class="w-full" src="img/hero.png" alt="Hero" />
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-7">
+        <div class="container">
+          <h2
+            class="mb-6 text-3xl font-[600] leading-normal tracking-[-0.01em] text-center text-primary md:text-4xl"
+          >
+            Lorem, ipsum dolor
+          </h2>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam
+            a autem culpa architecto et, nulla nostrum ipsam tempore pariatur.
+          </p>
+          <div class="mb-32 text-center">
+            <a class="cta" href="#">Explore More</a>
+          </div>
+          <ul
+            class="flex flex-col gap-8 text-center md:grid md:grid-cols-3 md:text-left"
+          >
+            <li>
+              <img
+                class="w-full h-[250px] object-cover mb-8"
+                src="img/card-1.jpg"
+                alt="Card"
+              />
+              <h3 class="text-2xl font-medium mb-4">Teamwork</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Corrupti quam vel nam expedita blanditiis debitis a asperiores
+                hic et iusto doloribus vitae ducimus incidunt velit, totam
+                facere sint minima. Asperiores.
+              </p>
+              <a class="relative inline-block pr-6 card-link" href="#"
+                >Learn more</a
+              >
+            </li>
+            <li>
+              <img
+                class="w-full h-[250px] object-cover mb-8"
+                src="img/card-2.jpg"
+                alt="Card"
+              />
+              <h3 class="text-2xl font-medium mb-4">Deadlines</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Corrupti quam vel nam expedita blanditiis debitis a asperiores
+                hic et iusto doloribus vitae ducimus incidunt velit, totam
+                facere sint minima. Asperiores.
+              </p>
+              <a class="relative inline-block pr-6 card-link" href="#"
+                >Learn more</a
+              >
+            </li>
+            <li>
+              <img
+                class="w-full h-[250px] object-cover mb-8"
+                src="img/card-3.jpg"
+                alt="Card"
+              />
+              <h3 class="text-2xl font-medium mb-4">Save Money</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Corrupti quam vel nam expedita blanditiis debitis a asperiores
+                hic et iusto doloribus vitae ducimus incidunt velit, totam
+                facere sint minima. Asperiores.
+              </p>
+              <a class="relative inline-block pr-6 card-link" href="#"
+                >Learn more</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="py-24">
+        <div class="container">
+          <h2 class="mb-20 text-center font-medium text-2xl md:mb-36">Testimonials</h2>
+          <ul class="flex flex-col gap-32 md:grid md:gap-x-8 md:gap-y-32 grid-cols-2 grid-rows-2">
+            <li
+              class="flex flex-col items-center overflow-hidden bg-secondary rounded-lg text-white text-center md:row-start-1 md:row-end-3 md:col-start-1 md:col-end-2"
+            >
+              <img class="mb-4" src="img/card-1.jpg" alt="">
+
+              <div class="px-8 py-4">
+                <h4 class="mb-2">Lorem ipsum dolor sit</h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptatibus adipisci neque laudantium repellendus mollitia animi accusamus, vitae fugiat? Dignissimos qui consectetur obcaecati iusto. Dolorem repudiandae blanditiis voluptate sed qui!
+              </div>
+            </li>
+            <li
+              class="flex flex-col  items-center pt-20 px-4 bg-secondary rounded-lg text-white text-center"
+            >
+              <img
+                class="w-36 h-36 -mt-[158px] mb-4 rounded-full"
+                src="img/user.png"
+                alt="User"
+              />
+              <h4 class="font-medium mb-4">John Doe</h4>
+              <blockquote">
+              <p class="text-white text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti quam vel nam expedita blanditiis debitis a asperiores
+                hic et iusto doloribus vitae ducimus incidunt velit, totam
+                facere sint minima. Asperiores.
+              </p>
+              </blockquote>
+            </li>
+            <li
+              class="flex flex-col  items-center pt-20 px-4 bg-secondary rounded-lg text-white text-center"
+            >
+              <img
+                class="w-36 h-36 -mt-[158px] mb-4 rounded-full"
+                src="img/user.png"
+                alt="User"
+              />
+              <h4 class="font-medium mb-4">John Doe</h4>
+              <blockquote">
+              <p class="text-white text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti quam vel nam expedita blanditiis debitis a asperiores
+                hic et iusto doloribus vitae ducimus incidunt velit, totam
+                facere sint minima. Asperiores.
+              </p>
+              </blockquote>
+            </li>
+            
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-primary py-8">
+      <div class="container flex flex-col justify-center items-center">
+        <p class="mb-0 text-white">&copy; <span data-year="yearPlaceholder"></span>, Jyldyz Academy </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
